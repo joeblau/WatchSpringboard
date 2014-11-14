@@ -20,6 +20,21 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-
+  override func viewWillAppear(animated: Bool) {
+    
+    let springboard = self.springboard()
+    springboard.centerOn(0, zoomScale: 1, animated: false)
+    //    springboard.doIntroAnimation()
+    //    springboard.alpha = 1
+    //    }
+  }
+  
+  func customView() -> ItemsView {
+    return self.view as ItemsView
+  }
+  
+  func springboard() -> SpringboardView {
+    return (self.view as ItemsView).springboardView
+  }
 }
 

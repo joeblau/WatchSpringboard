@@ -13,6 +13,9 @@
 		E6D0DB181A16580400F71E55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D0DB171A16580400F71E55 /* Images.xcassets */; };
 		E6D0DB1B1A16580400F71E55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6D0DB191A16580400F71E55 /* LaunchScreen.xib */; };
 		E6D0DB271A16580400F71E55 /* WatchSpringboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0DB261A16580400F71E55 /* WatchSpringboardTests.swift */; };
+		E6D0DB351A16583F00F71E55 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0DB311A16583F00F71E55 /* ItemsView.swift */; };
+		E6D0DB361A16583F00F71E55 /* SpringboardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0DB321A16583F00F71E55 /* SpringboardItemView.swift */; };
+		E6D0DB371A16583F00F71E55 /* SpringboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0DB331A16583F00F71E55 /* SpringboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		E6D0DB201A16580400F71E55 /* WatchSpringboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSpringboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D0DB251A16580400F71E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6D0DB261A16580400F71E55 /* WatchSpringboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSpringboardTests.swift; sourceTree = "<group>"; };
+		E6D0DB311A16583F00F71E55 /* ItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		E6D0DB321A16583F00F71E55 /* SpringboardItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringboardItemView.swift; sourceTree = "<group>"; };
+		E6D0DB331A16583F00F71E55 /* SpringboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		E6D0DB0D1A16580400F71E55 /* WatchSpringboard */ = {
 			isa = PBXGroup;
 			children = (
+				E6D0DB311A16583F00F71E55 /* ItemsView.swift */,
+				E6D0DB321A16583F00F71E55 /* SpringboardItemView.swift */,
+				E6D0DB331A16583F00F71E55 /* SpringboardView.swift */,
 				E6D0DB101A16580400F71E55 /* AppDelegate.swift */,
 				E6D0DB121A16580400F71E55 /* ViewController.swift */,
 				E6D0DB141A16580400F71E55 /* Main.storyboard */,
@@ -213,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6D0DB131A16580400F71E55 /* ViewController.swift in Sources */,
+				E6D0DB361A16583F00F71E55 /* SpringboardItemView.swift in Sources */,
+				E6D0DB351A16583F00F71E55 /* ItemsView.swift in Sources */,
+				E6D0DB371A16583F00F71E55 /* SpringboardView.swift in Sources */,
 				E6D0DB111A16580400F71E55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
