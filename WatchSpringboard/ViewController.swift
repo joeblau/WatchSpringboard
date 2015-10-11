@@ -21,20 +21,19 @@ class ViewController: UIViewController {
   }
 
   override func viewWillAppear(animated: Bool) {
-    
-    let springboard = self.springboard()
-    springboard.centerOn(0, zoomScale: 1, animated: false)
-    //    springboard.doIntroAnimation()
-    //    springboard.alpha = 1
-    //    }
+    if let itemView = self.view as? ItemsView {
+        itemView.springboardView.centerOn(0, zoomScale: 1, animated: false)
+        itemView.springboardView.doIntroAnimation()
+        itemView.springboardView.alpha = 1
+    }
   }
   
-  func customView() -> ItemsView {
-    return self.view as ItemsView
-  }
-  
-  func springboard() -> SpringboardView {
-    return (self.view as ItemsView).springboardView
-  }
+//  func customView() -> ItemsView {
+//    return self.view as! ItemsView
+//  }
+//  
+//  func springboard() -> SpringboardView {
+//    return (self.view as! ItemsView).springboardView
+//  }
 }
 

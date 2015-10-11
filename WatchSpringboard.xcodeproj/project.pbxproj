@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				E6D0DB311A16583F00F71E55 /* ItemsView.swift */,
-				E6D0DB321A16583F00F71E55 /* SpringboardItemView.swift */,
 				E6D0DB331A16583F00F71E55 /* SpringboardView.swift */,
+				E6D0DB321A16583F00F71E55 /* SpringboardItemView.swift */,
 				E6D0DB101A16580400F71E55 /* AppDelegate.swift */,
 				E6D0DB121A16580400F71E55 /* ViewController.swift */,
 				E6D0DB141A16580400F71E55 /* Main.storyboard */,
@@ -165,6 +165,7 @@
 		E6D0DB031A16580400F71E55 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = joeblau;
 				TargetAttributes = {
@@ -417,6 +418,7 @@
 				E6D0DB2C1A16580400F71E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6D0DB2D1A16580400F71E55 /* Build configuration list for PBXNativeTarget "WatchSpringboardTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +427,7 @@
 				E6D0DB2F1A16580400F71E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
